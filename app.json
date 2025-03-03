@@ -14,7 +14,8 @@
     ],
     "experiments": {
       "typedRoutes": true,
-      "tsconfigPaths": true
+      "tsconfigPaths": true,
+      "baseUrl": "/PhotoGrad"
     },
     "orientation": "portrait",
     "icon": "./assets/icon.png",
