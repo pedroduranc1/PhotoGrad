@@ -1,0 +1,126 @@
+{
+  "apiRoutes": [],
+  "htmlRoutes": [
+    {
+      "file": "./(tabs)/index.tsx",
+      "page": "/(tabs)/index",
+      "namedRegex": "^(?:/\\(tabs\\))?(?:/)?$",
+      "routeKeys": {}
+    },
+    {
+      "file": "./(tabs)/pagos.tsx",
+      "page": "/(tabs)/pagos",
+      "namedRegex": "^(?:/\\(tabs\\))?/pagos(?:/)?$",
+      "routeKeys": {}
+    },
+    {
+      "file": "./(tabs)/inicio.tsx",
+      "page": "/(tabs)/inicio",
+      "namedRegex": "^(?:/\\(tabs\\))?/inicio(?:/)?$",
+      "routeKeys": {}
+    },
+    {
+      "file": "./(tabs)/paquetes.tsx",
+      "page": "/(tabs)/paquetes",
+      "namedRegex": "^(?:/\\(tabs\\))?/paquetes(?:/)?$",
+      "routeKeys": {}
+    },
+    {
+      "file": "expo-router/build/views/Sitemap.js",
+      "page": "/_sitemap",
+      "namedRegex": "^/_sitemap(?:/)?$",
+      "routeKeys": {},
+      "generated": true
+    },
+    {
+      "file": "./paquete/add.tsx",
+      "page": "/paquete/add",
+      "namedRegex": "^/paquete/add(?:/)?$",
+      "routeKeys": {}
+    },
+    {
+      "file": "./escuela/add.tsx",
+      "page": "/escuela/add",
+      "namedRegex": "^/escuela/add(?:/)?$",
+      "routeKeys": {}
+    },
+    {
+      "file": "./(tabs)/estudiantes.tsx",
+      "page": "/(tabs)/estudiantes",
+      "namedRegex": "^(?:/\\(tabs\\))?/estudiantes(?:/)?$",
+      "routeKeys": {}
+    },
+    {
+      "file": "./estudiante/add.tsx",
+      "page": "/estudiante/add",
+      "namedRegex": "^/estudiante/add(?:/)?$",
+      "routeKeys": {}
+    },
+    {
+      "file": "./paquete/edit/[id].tsx",
+      "page": "/paquete/edit/[id]",
+      "namedRegex": "^/paquete/edit/(?<id>[^/]+?)(?:/)?$",
+      "routeKeys": {
+        "id": "id"
+      }
+    },
+    {
+      "file": "./paquete/delete/[id].tsx",
+      "page": "/paquete/delete/[id]",
+      "namedRegex": "^/paquete/delete/(?<id>[^/]+?)(?:/)?$",
+      "routeKeys": {
+        "id": "id"
+      }
+    },
+    {
+      "file": "./estudiante/edit/[id].tsx",
+      "page": "/estudiante/edit/[id]",
+      "namedRegex": "^/estudiante/edit/(?<id>[^/]+?)(?:/)?$",
+      "routeKeys": {
+        "id": "id"
+      }
+    },
+    {
+      "file": "./estudiante/delete/[id].tsx",
+      "page": "/estudiante/delete/[id]",
+      "namedRegex": "^/estudiante/delete/(?<id>[^/]+?)(?:/)?$",
+      "routeKeys": {
+        "id": "id"
+      }
+    },
+    {
+      "file": "./estudiante/[id].tsx",
+      "page": "/estudiante/[id]",
+      "namedRegex": "^/estudiante/(?<id>[^/]+?)(?:/)?$",
+      "routeKeys": {
+        "id": "id"
+      }
+    },
+    {
+      "file": "./escuela/edit/[id].tsx",
+      "page": "/escuela/edit/[id]",
+      "namedRegex": "^/escuela/edit/(?<id>[^/]+?)(?:/)?$",
+      "routeKeys": {
+        "id": "id"
+      }
+    },
+    {
+      "file": "./escuela/delete/[id].tsx",
+      "page": "/escuela/delete/[id]",
+      "namedRegex": "^/escuela/delete/(?<id>[^/]+?)(?:/)?$",
+      "routeKeys": {
+        "id": "id"
+      }
+    }
+  ],
+  "notFoundRoutes": [
+    {
+      "file": "./+not-found.tsx",
+      "page": "/+not-found",
+      "namedRegex": "^(?:/(?<notfound>.+?))?(?:/)?$",
+      "routeKeys": {
+        "notfound": "not-found"
+      }
+    }
+  ]
+}
